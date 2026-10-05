@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    background-color: purple;
+    padding: 100px;
+}
+.logo{
+    position: absolute;
+    height: 200px;
+    width: auto;
+}
+.menu a{
+    color: aliceblue;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav-links{
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+.menu a:hover{
+    color: chartreuse;
+    font-size: 25px;
+}
+body{
+    background-color: purple;
+}
+main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
